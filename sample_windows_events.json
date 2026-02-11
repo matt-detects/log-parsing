@@ -1,0 +1,17 @@
+[
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-02-10T15:01:11Z",
+    "Computer": "DC01",
+    "TargetUserName": "admin",
+    "IpAddress": "192.168.1.45",
+    "Status": "0xC000006D"
+  },
+  {
+    "EventID": 4688,
+    "TimeCreated": "2026-02-10T16:45:18Z",
+    "Computer": "workstation-07",
+    "NewProcessName": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "CommandLine": "powershell.exe -EncodedCommand SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBEAG8AdwBuAGwAbwBhAGQAUwB0AHIAaQBuAGcA"
+  }
+]
