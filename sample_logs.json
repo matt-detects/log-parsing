@@ -1,0 +1,54 @@
+[
+  {
+    "timestamp": "2026-02-10T14:22:31Z",
+    "event_type": "web_request",
+    "source_ip": "185.220.101.45",
+    "destination_ip": "10.0.5.23",
+    "user": "anonymous",
+    "http_method": "GET",
+    "uri": "/admin/login.php",
+    "status_code": 401
+  },
+  {
+    "timestamp": "2026-02-10T14:23:02Z",
+    "event_type": "web_request",
+    "source_ip": "185.220.101.45",
+    "destination_ip": "10.0.5.23",
+    "user": "anonymous",
+    "http_method": "POST",
+    "uri": "/admin/login.php",
+    "status_code": 403
+  },
+  {
+    "timestamp": "2026-02-10T15:01:11Z",
+    "event_type": "authentication",
+    "source_ip": "192.168.1.45",
+    "destination_ip": "10.0.2.10",
+    "user": "jsmith",
+    "auth_result": "failure"
+  },
+  {
+    "timestamp": "2026-02-10T15:02:04Z",
+    "event_type": "authentication",
+    "source_ip": "192.168.1.45",
+    "destination_ip": "10.0.2.10",
+    "user": "jsmith",
+    "auth_result": "success"
+  },
+  {
+    "timestamp": "2026-02-10T16:45:18Z",
+    "event_type": "process_creation",
+    "host": "workstation-07",
+    "user": "mturner",
+    "process_name": "powershell.exe",
+    "command_line": "powershell.exe -EncodedCommand SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBEAG8AdwBuAGwAbwBhAGQAUwB0AHIAaQBuAGcA"
+  },
+  {
+    "timestamp": "2026-02-10T17:10:42Z",
+    "event_type": "dns_query",
+    "host": "workstation-07",
+    "user": "mturner",
+    "queried_domain": "suspicious-domain-example.xyz",
+    "response_ip": "45.67.89.101"
+  }
+]
