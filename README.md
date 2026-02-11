@@ -34,12 +34,6 @@ The goal is to extract structured detection-relevant fields from raw and JSON lo
 
 ---
 
-## Structure
-
----
-
----
-
 ## Notes
 
 All data used in this project is synthetic or publicly available.  
