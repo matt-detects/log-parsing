@@ -1,0 +1,10 @@
+185.220.101.45 - - [10/Feb/2026:14:22:31 +0000] "GET /admin/login.php HTTP/1.1" 401 532
+185.220.101.45 - - [10/Feb/2026:14:23:02 +0000] "POST /admin/login.php HTTP/1.1" 403 721
+203.0.113.88 - - [10/Feb/2026:14:25:10 +0000] "GET /index.html HTTP/1.1" 200 1245
+
+Feb 10 15:01:11 server01 sshd[22451]: Failed password for invalid user admin from 192.168.1.45 port 53322 ssh2
+Feb 10 15:01:17 server01 sshd[22453]: Failed password for invalid user root from 192.168.1.45 port 53324 ssh2
+Feb 10 15:02:04 server01 sshd[22459]: Accepted password for jsmith from 192.168.1.45 port 53328 ssh2
+
+Feb 10 16:45:18 workstation-07 powershell.exe[9981]: Executed encoded command
+Feb 10 17:10:42 workstation-07 dns-client[1122]: Query for suspicious-domain-example.xyz resolved to 45.67.89.101
