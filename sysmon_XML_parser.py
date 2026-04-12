@@ -1,3 +1,11 @@
+# Example usage:
+# Parse all events, output JSON to stdout
+# python sysmon_parser.py sysmon_log.xml
+# Filter to WMI events only
+# python sysmon_parser.py sysmon_log.xml --event-ids 19 20 21
+# Filter to network connections, write to file
+# python sysmon_parser.py sysmon_log.xml --event-ids 3 --output network_events.json
+
 import xml.etree.ElementTree as ET
 import json
 import logging
